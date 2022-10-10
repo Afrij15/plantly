@@ -23,10 +23,10 @@ class _CartPageState extends State<CartPage>
         (
           appBar: new AppBar
           (
-            backgroundColor: Colors.white,
+            backgroundColor: Colors.blue,
             elevation: 0.0,
             automaticallyImplyLeading: false,
-            title: new Text('Shopping cart', style: new TextStyle(color: Colors.black, fontWeight: FontWeight.w700, fontSize: 26.0)),
+            title: new Text('Shopping cart', style: new TextStyle(color: Colors.black, fontWeight: FontWeight.w700, fontSize: 27.0)),
             actions: <Widget>
             [
               new Center
@@ -110,7 +110,7 @@ class _CartPageState extends State<CartPage>
                 (
                   child: new Material
                   (
-                    elevation: 16.0,
+                    elevation: 15.0,
                     shadowColor: new Color(0x7000E676),
                     color: Colors.white,
                     child: new InkWell
