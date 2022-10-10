@@ -14,7 +14,7 @@ class CartItem extends StatelessWidget
       margin: new EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
       child: new Material
       (
-        elevation: 30.0,
+        elevation: 19,
         shadowColor: Colors.black54,
         color: Colors.white,
         borderRadius: new BorderRadius.circular(6.0),

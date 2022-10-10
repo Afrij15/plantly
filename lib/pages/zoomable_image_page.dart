@@ -40,7 +40,7 @@ class ZoomableImagePage extends StatelessWidget
                 [
                   new AppBar
                   (
-                    elevation: 0.0,
+                    elevation: 1,
                     backgroundColor: Colors.transparent,
                     leading: new Container(), // Overrides the go back arrow icon button
                     actions: <Widget>
@@ -48,7 +48,7 @@ class ZoomableImagePage extends StatelessWidget
                       new IconButton
                       (
                         onPressed: () => Navigator.of(context).pop(),
-                        icon: new Icon(Icons.close, color: Colors.white),
+                        icon: new Icon(Icons.close, color: Colors.grey),
                       ),
                     ],
                   ),

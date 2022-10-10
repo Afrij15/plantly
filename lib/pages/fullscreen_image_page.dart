@@ -56,7 +56,7 @@ class FullscreenImagePage extends StatelessWidget
                   [
                     new AppBar
                     (
-                      elevation: 0.0,
+                      elevation: 1,
                       backgroundColor: Colors.transparent,
                       leading: new IconButton
                       (
